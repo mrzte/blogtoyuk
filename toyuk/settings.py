@@ -23,8 +23,9 @@ TEMPLATE_DIRS = (
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
-
-SECRET_KEY = os.environ.get('SECRET_KEY')
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = '*$wl1g2if8t2@xl((a9_6$n)5)^v*s_bb!p^+60awlj*3+9k#%'
+# SECRET_KEY = os.environ.get('SECRET_KEY')
 EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
